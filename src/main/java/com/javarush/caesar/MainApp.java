@@ -27,6 +27,8 @@ public class MainApp {
     }
 
     private void run() {
+        System.out.println(validator.isValidKey(-5, ALPHABET));
+
         System.out.println("Шифр Цезаря: шифрование и расшифровка файлов");
         while (true) {
             printMenu();
